@@ -81,7 +81,7 @@ def test():
     print('\n테스트 데이터에서 예측 정확도: {}/{} ({:.0f}%)\n'.format(correct,
                                                          data_num, 100. * correct / data_num))
 
-test()
+
 
 for epoch in range(3):
     train(epoch)
